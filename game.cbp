@@ -39,6 +39,14 @@
 			<Add library="sfml-system" />
 			<Add directory="../../../../Program Files (x86)/Microsoft VS Code/SFML-2.5.1/lib" />
 		</Linker>
+		<Unit filename="Block.cpp" />
+		<Unit filename="Block.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Gui.cpp" />
+		<Unit filename="Gui.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

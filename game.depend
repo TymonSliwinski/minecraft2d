@@ -1,13 +1,6 @@
 # depslib dependency file v1.0
-1635966402 source:d:\dev\sem3\cpp\game\main.cpp
-	<SFML/Graphics.hpp>
-	<SFML/Window.hpp>
-	<math.h>
-	<vector>
-	<iostream>
-	"Player.h"
-	"Block.h"
-	<map>
+1637525458 source:d:\dev\sem3\cpp\game\main.cpp
+	"Game.h"
 
 1525808418 d:\program files (x86)\microsoft vs code\sfml-2.5.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -418,26 +411,44 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1636117609 source:d:\dev\sem3\cpp\game\player.cpp
+1642775034 source:d:\dev\sem3\cpp\game\player.cpp
 	"Player.h"
 
 1634385498 d:\dev\sem3\cpp\game\player.cpp
 	"Player.h"
 
-1635964266 d:\dev\sem3\cpp\game\player.h
+1643651649 d:\dev\sem3\cpp\game\player.h
 	<SFML/Graphics.hpp>
 
-1635020253 d:\dev\sem3\cpp\game\block.h
+1643651300 d:\dev\sem3\cpp\game\block.h
 	<SFML/Graphics.hpp>
 
-1635023828 source:d:\dev\sem3\cpp\game\block.cpp
+1637524402 source:d:\dev\sem3\cpp\game\block.cpp
 	"Block.h"
 	<math.h>
 
-1635863715 source:d:\dev\sem3\cpp\game\game.cpp
+1643652728 source:d:\dev\sem3\cpp\game\game.cpp
 	"Game.h"
+	<math.h>
+	<fstream>
+	<iostream>
+	<string>
+	<time.h>
+	<stdlib.h>
+	<algorithm>
 
-1635863407 d:\dev\sem3\cpp\game\game.h
+1643651366 d:\dev\sem3\cpp\game\game.h
+	<SFML/Graphics.hpp>
 	<Player.h>
 	<Block.h>
+	<map>
+	<utility>
+	<Gui.h>
+
+1642791515 d:\dev\sem3\cpp\game\gui.h
+	<SFML/Graphics.hpp>
+
+1643653580 source:d:\dev\sem3\cpp\game\gui.cpp
+	"Gui.h"
+	<iostream>
 

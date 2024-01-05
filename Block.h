@@ -12,4 +12,8 @@ public:
     int blockY;
 
 private:
+    bool operator<(const Block& other) const
+    {
+        return (blockX < other.blockX) || (blockY < other.blockY);
+    }
 };
